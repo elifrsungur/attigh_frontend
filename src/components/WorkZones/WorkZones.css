@@ -1,0 +1,12 @@
+.add-icon {
+  cursor: pointer;
+  margin-left: 10px; /* Buton ile yazı arasındaki mesafe */
+  transition: color 0.2s; /* Renk değişim süresi */
+    font-size: 20px;
+
+}
+
+.add-icon:hover {
+  color: #007bff; /* Üzerine gelindiğindeki renk */
+  font-size: 25px;
+}

@@ -1,0 +1,128 @@
+.project-page{
+  
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh; /* Ekran yüksekliği kadar uzat */
+    background: linear-gradient(to bottom left, #f8f8f8 50%, #c5dadb 50%);
+    
+}
+
+.transparent-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5); /* Hafif transparan beyaz arka plan */
+    z-index: -1; /* Arkada içeriğin üzerine gelmez */
+}
+
+/* Proje formu ana konteyner */
+.project-form-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #146662;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+h2 {
+    
+    background-color: cadetblue;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 7px 9px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+/* Proje formu başlığı */
+.form-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Proje formu buton */
+.form-button {
+  margin-top: 20px;
+  background-color: #4caf50;
+}
+
+/* Kaydedilen proje bilgileri kutusu */
+.saved-project-box {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #af4c8e;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  animation: fadeIn 0.5s ease;
+}
+
+/* Animasyon */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  
+}
+
+.card:hover {
+  transform: scale(1.05); /* Kartı biraz büyüt */
+  box-shadow: 0 0 20px rgba(13, 107, 119, 0.5); /* Gölgelendirme artır */
+  transition: transform 0.3s, box-shadow 0.3s; /* Geçiş efektleri ekle */
+}
+
+.card.newCard{
+    background-color: #146662;
+    
+    background-position: top center;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+  
+}
+ .btn {
+    margin: 0 10px;
+}
+
+
+
+ .project-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+ }
+
+ 
+.project-item-card {
+    width: calc(25% - 30px); /* Kartların genişliği ve aralarındaki boşluk (padding) */
+    margin: 15px; /* Kartların dış kenar boşluğu */
+    margin: 0.5rem; /* Kartlar arası boşluk */
+    display: inline-block !important; /* Kartların yan yana dizilmesi */
+    vertical-align: top; /* Kartların üst kenarlardan hizalanması */
+    box-sizing: border-box; /* Kartın içeriğin genişliğine dahil edilmesi */
+        transition: transform 0.2s; /* Transform özelliğine geçiş efekti ekle */
+}
+
+.project-item-card:hover {
+      transform: scale(0.95); /* Üzerine gelindiğinde kartı biraz küçült */
+
+  
+    background: rgba(120, 167, 168, 0.8); /* Hafif geçişli arka plan rengi */
+}

@@ -1,0 +1,24 @@
+[
+  { "value": "1978", "il_id": "38", "title": "ÖZVATAN" },
+  { "value": "1603", "il_id": "38", "title": "SARIOĞLAN" },
+
+  { "value": "1870", "il_id": "58", "title": "AKINCILAR" },
+  { "value": "1875", "il_id": "58", "title": "ALTINYAYLA" },
+  { "value": "1282", "il_id": "58", "title": "DİVRİĞİ" },
+  { "value": "1913", "il_id": "58", "title": "DOĞANŞAR" },
+  { "value": "1342", "il_id": "58", "title": "GEMEREK" },
+  { "value": "1927", "il_id": "58", "title": "GÖLOVA" },
+  { "value": "1373", "il_id": "58", "title": "GÜRÜN" },
+  { "value": "1376", "il_id": "58", "title": "HAFİK" },
+  { "value": "1407", "il_id": "58", "title": "İMRANLI" },
+  { "value": "1431", "il_id": "58", "title": "KANGAL" },
+  { "value": "1484", "il_id": "58", "title": "KOYULHİSAR" },
+  { "value": "1628", "il_id": "58", "title": "MERKEZ" },
+  { "value": "1646", "il_id": "58", "title": "SUŞEHRİ" },
+  { "value": "1650", "il_id": "58", "title": "ŞARKIŞLA" },
+  { "value": "1991", "il_id": "58", "title": "ULAŞ" },
+  { "value": "1731", "il_id": "58", "title": "YILDIZELİ" },
+  { "value": "1738", "il_id": "58", "title": "ZARA" },
+
+  { "value": "1117", "il_id": "66", "title": "AKDAĞMADENİ" }
+]

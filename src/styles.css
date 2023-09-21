@@ -1,0 +1,40 @@
+/* Navbar renk ayarı */
+.navbar {
+  background-color: #0b4042 !important;  /* Yeşil tonunda arka plan rengi */
+}
+
+/* Navbar bağlantı rengi */
+.navbar-nav .nav-link {
+  color: #d8dfbf !important; /* Yeşil tonunda bağlantı metin rengi */
+}
+
+/* Navbar bağlantı hover rengi */
+.navbar-nav .nav-link:hover {
+  color: #d4c7c7 !important; /* Koyu yeşil tonunda hover durumunda metin rengi */
+}
+
+/* Navbar dropdown menü bağlantı rengi */
+.navbar-dark .navbar-nav .nav-link.dropdown-toggle::after {
+  border-top-color: #c7b181 !important; /* Yeşil tonunda dropdown ok rengi */
+}
+
+/* Navbar dropdown menü bağlantı hover rengi */
+.navbar-dark .navbar-nav .nav-link.dropdown-toggle:hover::after {
+  border-top-color: #8e3838 !important; /* Koyu yeşil tonunda hover durumunda dropdown ok rengi */
+}
+
+/* Düğme rengi */
+.btn-primary {
+  background-color: #db2288; /* Koyu yeşil tonunda düğme arka plan rengi */
+  border-color: #8e387b; /* Koyu yeşil tonunda düğme kenarlık rengi */
+}
+
+/* Düğme hover rengi */
+.btn-primary:hover {
+  background-color: #4caf50; /* Yeşil tonunda hover durumunda arka plan rengi */
+  border-color: #4caf50; /* Yeşil tonunda hover durumunda kenarlık rengi */
+}
+
+.custom-navbar{
+    background-color: #0d595c;
+}

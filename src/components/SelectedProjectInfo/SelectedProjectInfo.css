@@ -1,0 +1,23 @@
+.selected-project-container {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.selected-project-info {
+    text-align: center;
+}
+
+.edit-button{
+
+    background-color: rgba(8, 74, 75, 0.3);
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+

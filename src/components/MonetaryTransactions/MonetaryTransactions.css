@@ -1,0 +1,79 @@
+/* ProjectCards.css */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  background: linear-gradient(to bottom left, #f8f8f8 50%, #c5dadb 50%);
+} 
+.project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 40px;
+  background-color: rgba(252, 10, 10, 0.2);
+}
+
+.project-card {
+  width: 300px;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.project-card.selected {
+  background-color: #294D61;
+}
+
+.project-card h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  font-size: 16px;
+  line-height: 1.4;
+  color: #B8B8B8;
+}
+
+.selected-project {
+  width: 100%;
+  padding: 20px;
+  background-color: #0F9690;
+  border-radius: 10px;
+  color: white;
+  margin-top: 20px;
+}
+
+.selected-project h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.selected-project p {
+  font-size: 16px;
+  line-height: 1.4;
+  color: white;
+}
+
+.btn, .entry-button{
+
+    background-color: rgba(8, 74, 75, 0.3);
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

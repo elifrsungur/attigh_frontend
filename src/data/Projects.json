@@ -1,0 +1,57 @@
+[
+    {
+        "id":1,
+        "name": "SİVAS 1. KISIM",
+        "type": "AT",
+        "application":"Sulama Kapsamında",
+        "stage": "PLANLAMA",
+        "planning": [{ 
+            "name": "joey", 
+            "age": 39, 
+            "isProgrammer": false
+      
+        }],
+    
+        "etude": [{ 
+            "name": "joey", 
+            "age": 39, 
+            "isProgrammer": false
+      
+        }],
+
+        "technics": [{ 
+            "name": "joey", 
+            "age": 39, 
+            "isProgrammer": false
+      
+        }],
+
+        "registry": [{ 
+            "name": "joey", 
+            "age": 39, 
+            "isProgrammer": false
+      
+        }] 
+    },
+    {
+        "id":2,
+        "name":"SİVAS 2. KISIM",
+        "type": "AT ve TİGH",
+        "application":"Tamamlama Projesi",
+        "stage": "ETÜT/PROJE"
+    },
+     {
+        "id":3,
+        "name":"SİVAS 3. KISIM",
+        "type": "Drenaj-Islah",
+        "application":"Bağımsız",
+        "stage": "UYGULAMA (İNŞAAT)"
+    },
+    {
+        "id":4,
+        "name":"SİVAS 4. KISIM",
+        "type": "Drenaj-Islah",
+        "application":"Bağımsız",
+        "stage": "TESCİL (İŞLETME)"
+    }
+]
